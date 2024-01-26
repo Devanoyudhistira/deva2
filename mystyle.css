@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'poppinsblack';
+    src: url('poppins-black-webfont.woff2') format('woff2'),
+         url('poppins-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'poppinsregular';
+    src: url(poppins-regular-webfont.woff2) format('woff2'),
+         url(poppins-regular-webfont.woff) format('woff');}
+         body{background-color: black;}
+
+.container{display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+
+.card1 span{font-family:poppinsblack;}
+.card1{width:280px;
+  height: 150px; 
+  position:relative; 
+  background-color:rgba(220, 220, 220, 0.4);
+  overflow: hidden;
+  transition: 0.90s;
+  border-radius: 10px;
+}
+.img{width:250px;
+  height: 120px;
+  background-image:url(car.jpg);
+  background-size: cover;
+  background-position:0, 10px;
+  padding-left: 20px;
+  position: absolute;
+  left:15px;
+  top:7px;
+  border:2px solid black;
+  border-radius: 10px;
+  box-sizing:border-box;
+}
+span{display: inline-block;
+  position: absolute;
+  top:130px;
+  left:15px;
+}
+.card1 span p{display: inline-block;
+  padding-top:10px;
+  font-family: poppinsregular;
+  font-size: 12px;
+}
+.card1 input{ position: absolute;
+  background-color: rgba(220, 220, 220, 0.4);
+top: 205px;left: 110px;
+width: 70px;height: 33px;
+font-size: 21px;
+color: rgba(220, 220, 220, 1);}
+.card1 input {font-family: cursive;}
+
+.card1:hover{filter: drop-shadow(8px 8px 10px gray);
+  height:240px;
+}
+
+
+.card2 span{font-family:poppinsblack;}
+.card2{width:290px;
+  height: 150px; 
+  position:relative; 
+  background-color:rgba(220, 220, 220, 0.4);
+  overflow: hidden;
+  transition: 0.90s;
+  border-radius: 10px;
+  }
+.img{width:250px;
+  height: 120px;
+  background-image:url(car.jpg);
+  background-size: cover;
+  background-position:0, 10px;
+  padding-left: 20px;
+  position: absolute;
+  left:15px;
+  top:7px;
+  border:2px solid black;
+  border-radius: 10px;
+  box-sizing:border-box;
+}
+span{display: inline-block;
+  position: absolute;
+  top:130px;
+  left:15px;
+}
+.card2 span p{display: inline-block;
+  padding-top:10px;
+  font-family: poppinsregular;
+  font-size: 12px;
+}
+.card2:hover{filter: drop-shadow(8px 8px 10px gray);
+  height:240px;
+}
